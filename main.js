@@ -42,8 +42,6 @@ function main(workbook: ExcelScript.Workbook) {
 		// Formata a hora para garantir que tenha dois dígitos
 		hourCell.setValue(h.toString().padStart(2, '0'));  // Linha 2, coluna H e em diante
 		freqCell.setValue(hourFrequency[h]);  // Linha 3, coluna H e em diante
-
-		console.log("teste for")
 	}
 		
 }
